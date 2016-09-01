@@ -1,0 +1,81 @@
+﻿@charset "utf-8";
+/* Layout */
+body { 
+    margin: 0;
+    padding: 0;
+    font-size : 14px;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    color: #333;
+    background: rgba(147,206,222,1);
+    background: -moz-linear-gradient(top, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(147,206,222,1)), color-stop(41%, rgba(117,189,209,1)), color-stop(100%, rgba(73,165,191,1)));
+    background: -webkit-linear-gradient(top, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+    background: -o-linear-gradient(top, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+    background: -ms-linear-gradient(top, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+    background: linear-gradient(to bottom, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#49a5bf', GradientType=0 );
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1024px;
+  }
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.rsu {
+	font-family: 'RSU_Regular';
+}
+.baijam {
+    font-family: 'th_baijamregular';
+}
+.baijam-bold {
+    font-family: 'th_baijambold';
+    font-size: 20px;
+}
+.font-s {
+    font-size : 12px;
+}
+.font-m {
+    font-size : 16px;
+}
+.font-l {
+    font-size : 18px;
+}
+.font-xl {
+    font-size : 20px;
+}
+.font-bold {
+    font-weight: bold;
+}
+
+.title-main {
+    font-size : 40px;
+    font-family: 'th_baijambold';
+    color: #333;
+    border-bottom: 2px #333 solid;
+    margin-top: 10px;
+}
+.form-body {
+    background: #fff;
+    box-shadow: 0px 1px 10px #888;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 100px;
+}
+
+.title-sub {
+    font-size : 24px;
+    font-family: 'th_baijambold';
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.table-middle {
+    vertical-align: middle;
+}
